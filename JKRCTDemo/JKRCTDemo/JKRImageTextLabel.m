@@ -248,7 +248,7 @@
  **********************************/
 - (void)layoutSubviews {
     UIImageView *imageView = [UIImageView new];
-    imageView.image = [UIImage imageNamed:@"baojimoshi"];
+    imageView.image = [UIImage imageNamed:@"image"];
     imageView.frame = self.imageRect;
     [self addSubview:imageView];
 }
